@@ -9,9 +9,9 @@ if(!initialized)
 		autoplay: true,
 		theme: '#b7daff',
 		loop: 'all', // one /none
-		order: 'list',	// random
+		order: 'random',	// list/ random
 		preload: 'auto',
-		volume: 0.6,
+		volume: 0.5,
 		mutex: true,
 		listFolded: false,
 		listMaxHeight: '300px',
@@ -43,7 +43,7 @@ if(!initialized)
 			name: "敢归云间宿",
 			artist: '三无',
 			url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbjZ0VWo3eEt0YlBwam56RmUxUWtBSHcyLXNtP2U9dWdWRDRp.mp3',
-			cover: '/music/cover/敢归云间宿.png',
+			// cover: '/music/cover/敢归云间宿.png',
 			// lrc: '/music/lyrics/敢归云间宿.lrc',
 		  },
 		  // 不支持wma后缀音乐
